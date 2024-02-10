@@ -3,7 +3,7 @@ const ctx = canvas.getContext('2d');
 let hearts = [];
 let lastTime = 0;
 const heartImage = new Image();
-heartImage.src = "Heart.png";
+heartImage.src = "heart.png";
 
 function Heart(x, y) {
     this.x = x;
